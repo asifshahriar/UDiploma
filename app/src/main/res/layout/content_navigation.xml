@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Navigation"
+    android:background="@color/background"
+    tools:showIn="@layout/app_bar_navigation">
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="05dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:background="@drawable/card_image_background2"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:padding="15dp"
+                        android:src="@drawable/mortarboard"
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:text="@string/option1"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId2"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/card_image_background"
+                        android:padding="15dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:text="@string/option2"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId3"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="05dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/card_image_background3"
+                        android:padding="15dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorPrimary"></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:gravity="center"
+                        android:text="@string/option3"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId4"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:background="@drawable/card_image_background4"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:padding="15dp"
+
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="@string/option4"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId5"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:background="@drawable/card_image_background5"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:padding="15dp"
+                        android:src="@drawable/school"
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:text="@string/option5"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/cardViewId6"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:background="@drawable/card_image_background6"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:padding="15dp"
+
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        style="@style/style_1"
+                        android:text="@string/option6"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
