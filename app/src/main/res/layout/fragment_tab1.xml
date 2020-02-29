@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/diploma_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId1"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/result" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option1"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId2"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/information" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option2"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId3"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/probidan" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option3"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId4"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/calendar" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option4"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId5"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/institute" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option5"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId6"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/bord" />
+
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/option1"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

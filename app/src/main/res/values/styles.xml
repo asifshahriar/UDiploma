@@ -17,4 +17,52 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="style_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#686767</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">Sub Title</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+    <style name="cardStyle_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#686767</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:text">Tittle</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+    <style name="cardStyle_2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#686767</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">Tittle</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+
+    <style name="cgpa_btn">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">#FF9800</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="cgpa_tv">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">#FF9800</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
 </resources>

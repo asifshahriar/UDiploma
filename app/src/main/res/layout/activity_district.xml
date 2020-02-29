@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context=".DistrictActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/background"
+                    android:gravity="center">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId1"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/dhaka_map">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/Dhaka"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId2"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/chittagong">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Chittagong"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId3"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/borishal">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Barisal"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId4"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/khulna">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Khulna"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId5"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/moymonshing">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Mymensingh" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId6"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/rajshahi">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Rajshahi"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId7"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/sylhet">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Sylhet" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_weight="1"
+                            android:id="@+id/cardViewId8"
+                            android:clickable="true"
+                            android:background="@color/background"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_margin="10dp"
+                            app:cardElevation="6dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="44dp"
+                                    android:layout_height="44dp"
+                                    android:src="@drawable/rangpur">
+
+                                </ImageView>
+                                <TextView
+                                    style="@style/style_2"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/Rangpur"
+                                    />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

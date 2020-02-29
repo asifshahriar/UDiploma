@@ -22,108 +22,252 @@
     <string name="option5">ইনস্টিটিউট</string>
     <string name="option6">বোর্ড</string>
 
-    <string-array name="govPoly">
-        <item>ঢাকা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ঢাকা মহিলা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ময়মনসিংহ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ফরিদপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>টাংগাইল পলিটেকনিক ইন্সটিটিউট</item>
-        <item>চট্টগ্রাম পলিটেকনিক ইন্সটিটিউট</item>
-        <item>কুমিল্লা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ফেনী পলিটেকনিক ইন্সটিটিউট</item>
-        <item>বাংলাদেশ সুইডেন পলিটেকনিক ইনস্টিটিউট</item>
-        <item>রাজশাহী পলিটেকনিক ইনস্টিটিউট</item>
-        <item>বগুড়া পলিটেকনিক ইন্সটিটিউট</item>
-        <item>পাবনা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>রংপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>দিনাজপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>খুলনা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>যশোর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>কুষ্টিয়া পলিটেকনিক ইন্সটিটিউট</item>
-        <item>বরিশাল পলিটেকনিক ইন্সটিটিউট</item>
-        <item>পটুয়াখালি পলিটেকনিক ইন্সটিটিউট</item>
-        <item>সিলেট পলিটেকনিক ইন্সটিটিউট</item>
-        <item>গ্রাফিক আর্টস ইন্সটিটিউট</item>
-        <item>বাংলাদেশ ইন্সটিটিউট অব গ্লাস এন্ড সিরামিক্স</item>
-        <item>বাংলাদেশ সার্ভে ইন্সটিটিউট</item>
-        <item>চট্টগ্রাম মহিলা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ফেনী কম্পিউটার ইন্সটিটিউট</item>
-        <item>কুড়িগ্রাম পলিটেকনিক ইন্সটিটিউট</item>
-        <item>নওগাঁ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ঠাকুরগাঁও পলিটেকনিক ইন্সটিটিউট</item>
-        <item>সাতক্ষীরা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ঝিনাইদহ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>সিরাজগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ভোলা পলিটেকনিক ইন্সটিটিউট</item>
+    <string name="option7">Book List</string>
+    <string name="option8">চাকুরী খুজুন</string>
+    <string name="option9">CGPA</string>
+    <string name="option10">একাডেমিক কেলেন্ডার</string>
+    <string name="option11">ইনস্টিটিউট</string>
+    <string name="option12">বোর্ড</string>
 
-        <item>বরগুনা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>নরসিংদী পলিটেকনিক ইন্সটিটিউট</item>
-        <item>মাগুরা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>খুলনা মহিলা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>রাজশাহী মহিলা পলিটেকনিক ইন্সটিটিউট</item>
-        <item>চাঁদপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>শরীয়তপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>ব্রাহ্মনবাড়ীয়া পলিটেকনিক ইন্সটিটিউট</item>
-        <item>হবিগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>শেরপুর পলিটেকনিক ইন্সটিটিউট</item>
-        <item>কক্সবাজার পলিটেকনিক ইন্সটিটিউট</item>
-        <item>গোপালগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>লক্ষীপুর পলিটেকনিক ইনস্টিটিউট</item>
-        <item>মুন্সিগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>চাঁপাইনবাবগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>কিশোরগঞ্জ পলিটেকনিক ইন্সটিটিউট</item>
-        <item>মৌলভীবাজার পলিটেকনিক ইন্সটিটিউট</item>
+    <string-array name="BarishalDistrict">
+        <item>Barisal Polytechnic Institute</item>
+        <item>Bhola Polytechnic Institute</item>
+        <item>Patuakhali Polytechnic Institute</item>
+        <item>Barguna Polytechnic Institute</item>
+    </string-array>
+    <string-array name="BarishalDistrict_subTitle">
+        <item>Barisal Polytechnic Institute</item>
+        <item>Bhola Polytechnic Institute</item>
+        <item>Patuakhali Polytechnic Institute</item>
+        <item>Barguna Polytechnic Institute</item>
+    </string-array>
 
+
+    <string-array name="dhakaDistrict">
+        <item>Dhaka Polytechnic InstituteDhaka</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Faridpur Polytechnic Institute</item>
+        <item>Tangail Polytechnic Institute</item>
+        <item>Graphic Arts Institute</item>
+        <item>Bangladesh Institute of Glass and Ceramics</item>
+        <item>Narsingdi Polytechnic Institute</item>
+        <item>Shariatpur Polytechnic Institute</item>
+        <item>Gopalganj Polytechnic Institute</item>
+        <item>Munshiganj Polytechnic Institute</item>
+        <item>Kishoreganj Polytechnic Institute</item>
     </string-array>
-    <string-array name="govPolyAddress">
-        <item>তেজগাঁও শিল্প এলাকা</item>
-        <item>শের-এ-বাংলা নগর, আগারগাঁও</item>
-        <item>চড়পাড়া</item>
-        <item>বায়তুল আমান</item>
-        <item>দেওলা, টাংগাইল</item>
-        <item>নাসিরাবাদ</item>
-        <item>কোটবাড়ি</item>
-        <item>হাসপাতাল রোড</item>
-        <item>রাঙ্গামাটি</item>
-        <item>সপুরা</item>
-        <item>শেরপুর রোড</item>
-        <item>গাংকোলা</item>
-        <item>জুম্মাপাড়া</item>
-        <item>বালুবাড়ী</item>
-        <item>খালিশপুর</item>
-        <item>শেখহাটি গ্রাম</item>
-        <item>কুষ্টিয়া সদর</item>
-        <item>আলেকান্দা</item>
-        <item>পটুয়াখালী সদর</item>
-        <item>টেকনিক্যাল রোড, বরইকান্দি</item>
-        <item>সাত মসজিদ রোড, মোহাম্মদপুর</item>
-        <item>৯৫, শহীদ তাজ উদ্দীন আহমেদ সরনী, তেজগাঁও শিল্পএলাকা , ঢাকা - ১২০৮</item>
-        <item>রাম্মালা</item>
-        <item>উওর হালিশহর</item>
-        <item>নতুন রানীরহাট</item>
-        <item>সদর</item>
-        <item>সদর</item>
-        <item>সদর</item>
-        <item>লাবসা</item>
-        <item>সদর</item>
-        <item>ফকিরতলা</item>
-        <item>সদর</item>
-        <item>ঢলুয়া</item>
-        <item>নরসিংদী সদর</item>
-        <item>ইটখোলা বাজার</item>
-        <item>খালিশপুর</item>
-        <item>নাওদাপাড়া বাইপাস রোড়</item>
-        <item>কালিয়াপাড়া-কচুয়া রোড়</item>
-        <item>বুড়িরহাট</item>
-        <item>ইসলামপুর</item>
-        <item>গোপায়া</item>
-        <item>বটশালা</item>
-        <item>দক্ষিণ মুহুরী পাড়া</item>
-        <item>চন্দ্রদিঘলিয়া</item>
-        <item>বাইশমারা</item>
-        <item>মিরকাদিম</item>
-        <item>বারঘরিয়া বাজার</item>
-        <item>করিমগঞ্জ</item>
-        <item>শমসের নগর রোড, মাথারকাপন</item>
+    <string-array name="dhakaDistrict_subTitle">
+        <item>Dhaka Polytechnic InstituteDhaka</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Faridpur Polytechnic Institute</item>
+        <item>Tangail Polytechnic Institute</item>
+        <item>Graphic Arts Institute</item>
+        <item>Bangladesh Institute of Glass and Ceramics</item>
+        <item>Narsingdi Polytechnic Institute</item>
+        <item>Shariatpur Polytechnic Institute</item>
+        <item>Gopalganj Polytechnic Institute</item>
+        <item>Munshiganj Polytechnic Institute</item>
+        <item>Kishoreganj Polytechnic Institute</item>
     </string-array>
+
+    <string-array name="ChittagongDistrict">
+        <item>Chittagong Polytechnic Institute</item>
+        <item>Chittagong Mohila Polytechnic Institute</item>
+        <item>Comilla Polytechnic Institute</item>
+        <item>Feni Polytechnic Institute</item>
+        <item>Bangladesh Sweden Polytechnic Institute</item>
+        <item>Bangladesh Survey Institute</item>
+        <item>Feni Computer Institute</item>
+        <item>Chandpur Polytechnic Institute</item>
+        <item>Brahmanbaria Polytechnic Institute</item>
+        <item>Cox"'"s Bazar Polytechnic Institute</item>
+        <item>Lakshmipur Polytechnic Institute</item>
+    </string-array>
+
+
+    <string-array name="ChittagongDistrict_subTitle">
+        <item>Khulna Polytechnic InstituteKhulna</item>
+        <item>Jessore Polytechnic Institute</item>
+        <item>Kushtia Polytechnic Institute</item>
+        <item>Satkhira Polytechnic Institute</item>
+        <item>Jhenaidah Polytechnic Institute</item>
+        <item>Magura Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+    </string-array>
+
+
+    <string-array name="KhulnaDistrict">
+        <item>Khulna Polytechnic InstituteKhulna </item>
+        <item>Jessore Polytechnic Institute</item>
+        <item>Kushtia Polytechnic Institute</item>
+        <item>Satkhira Polytechnic Institute</item>
+        <item>Jhenaidah Polytechnic Institute</item>
+        <item>Magura Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+    </string-array>
+    <string-array name="KhulnaDistrict_subTitle">
+        <item>Khulna Polytechnic InstituteKhulna </item>
+        <item>Jessore Polytechnic Institute</item>
+        <item>Kushtia Polytechnic Institute</item>
+        <item>Satkhira Polytechnic Institute</item>
+        <item>Jhenaidah Polytechnic Institute</item>
+        <item>Magura Polytechnic Institute</item>
+        <item>Mohila Polytechnic Institute</item>
+    </string-array>
+
+    <string-array name="MymonshinghDistrict">
+        <item>Mymensingh Polytechnic Institute</item>
+        <item>Sherpur Polytechnic Institute</item>
+    </string-array>
+    <string-array name="MymonshinghDistrict_subTitle">
+        <item>Mymensingh Polytechnic Institute</item>
+        <item>Sherpur Polytechnic Institute</item>
+    </string-array>
+
+    <string-array name="RajshahiDistrict">
+        <item>Rajshahi Polytechnic Institute</item>
+        <item>Rajshahi Mohila Polytechinic Institute</item>
+        <item>Bogra Polytechnic Institute</item>
+        <item>Pabna Polytechnic Institute</item>
+        <item>Nogaon Polytechnic Institute</item>
+        <item>Sirajgonj Polytechnic Institute</item>
+        <item>Chapainawabgonj Polytechnic Institute</item>
+    </string-array>
+    <string-array name="RajshahiDistrict_subTitle">
+        <item>Rajshahi Polytechnic Institute</item>
+        <item>Rajshahi Mohila Polytechinic Institute</item>
+        <item>Bogra Polytechnic Institute</item>
+        <item>Pabna Polytechnic Institute</item>
+        <item>Nogaon Polytechnic Institute</item>
+        <item>Sirajgonj Polytechnic Institute</item>
+        <item>Chapainawabgonj Polytechnic Institute</item>
+    </string-array>
+
+    <string-array name="RangpurDistrict">
+        <item>Rangpur Polytechnic Institute</item>
+        <item>Dinajpur Polytechnique Institute</item>
+        <item>Kurigram Polytechnic Institute</item>
+        <item>Thakurgaon Polytechnic Institute</item>
+    </string-array>
+    <string-array name="RangpurDistrict_subTitle">
+        <item>Rangpur Polytechnic Institute</item>
+        <item>Dinajpur Polytechnique Institute</item>
+        <item>Kurigram Polytechnic Institute</item>
+        <item>Thakurgaon Polytechnic Institute</item>
+    </string-array>
+
+    <string-array name="SylhetDistrict">
+        <item>Sylhet Polytechnic Institute</item>
+        <item>Hobigonj Polytechnic Institute</item>
+        <item>Maulvi Bazar Polytechnic Institute</item>
+    </string-array>
+    <string-array name="SylhetDistrict_subTitle">
+        <item>Sylhet Polytechnic Institute</item>
+        <item>Hobigonj Polytechnic Institute</item>
+        <item>Maulvi Bazar Polytechnic Institute</item>
+    </string-array>
+
+
+    <string-array name="DepertmentShortName">
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+    </string-array>
+
+    <string-array name="DepertmentFullName">
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+        <item>Computer</item>
+    </string-array>
+
+    <string name="title_activity_view_pager">ViewPager</string>
+
+    <string name="button1">BTEB Result</string>
+    <string name="button2">Diploma Totla CGPA</string>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <style name="style_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#686767</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+
+    <string name="Dhaka">ঢাকা বিভাগ</string>
+    <string name="Chittagong">চট্টগ্রাম বিভাগ</string>
+    <string name="Barisal">বরিশাল বিভাগ</string>
+    <string name="Khulna">খুলনা বিভাগ</string>
+    <string name="Mymensingh">ময়মনসিংহ বিভাগ</string>
+    <string name="Rajshahi">রাজশাহী বিভাগ</string>
+    <string name="Sylhet">সিলেট বিভাগ</string>
+    <string name="Rangpur">রংপুর বিভাগ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

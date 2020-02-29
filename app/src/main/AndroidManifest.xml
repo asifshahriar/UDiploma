@@ -12,13 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Institute"></activity>
+        <activity android:name=".CGPA"></activity>
+        <activity android:name=".BookList" />
+        <activity android:name=".District.DhakaDistrict" />
+        <activity android:name=".District.ChittagongDistrict" />
+        <activity android:name=".District.BarishalDistrict" />
+        <activity android:name=".District.KhulnaDistrict" />
+        <activity android:name=".District.MymenshinghDistrict" />
+        <activity android:name=".District.RajshahiDistrict" />
+        <activity android:name=".District.SylhetDistrict" />
+        <activity android:name=".District.RangpurDistrict" />
+        <activity android:name=".DistrictActivity" />
+        <activity android:name=".BooklistActivity" />
+        <activity android:name=".Bord" />
+        <activity android:name=".Calender" />
+        <activity android:name=".SemesterResult" />
+        <activity android:name=".DiplomaResult" />
+        <activity android:name=".Probidhan" />
         <activity android:name=".Admissionbteb" />
-        <activity android:name=".Result" />
-        <activity android:name=".MainActivity" />
-        <activity
-            android:name=".Navigation"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ResultOption" />
+        <activity android:name=".ViewPager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
